@@ -4,10 +4,11 @@ import {RouterModule} from '@angular/router';
 @Component({
   selector: 'app-lazy-view',
   template: `
-    <h3>This is content from a lazy-loaded route</h3>
-    <div>Check your Networks tab to see that the js file got loaded</div>
-    <br>
-    <div><em>/lazy/nested/</em> routes to the same page</div>
+    <h3>About Being Surjeet Store</h3>
+    <div>Being Surjeet store is one the best store in Ahmedabad. It is located at SG Highway.
+    We are leading clothing store in Ahmedabad. Being Surjeet store has almost all brands
+    clothes including Levi, Mufti, Wrangler etc.
+    </div>
   `
 })
 export class LazyComponent {}

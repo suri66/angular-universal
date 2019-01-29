@@ -4,11 +4,11 @@ import {Component} from '@angular/core';
   selector: 'app-root',
   template: `
   <div class="app-container">
-    <h1>Angular Universal Demo utilizing Angular & Angular CLI</h1>
+    <h1>Being Surjeet Store</h1>
     <nav class="nav-links">
       <a routerLink="/">Home</a>
-      <a routerLink="/lazy">Lazy-loaded Route</a>
-      <a routerLink="/lazy/nested">Nested Routes work too</a>
+      <a routerLink="/about">About</a>
+      <a routerLink="/contact">Contact</a>
     </nav>
     <div class="router-container">
       <router-outlet></router-outlet>
