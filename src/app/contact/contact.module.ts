@@ -8,7 +8,7 @@ import {RouterModule} from '@angular/router';
     <div>
       Voice: 9173283200 <br>
       Email: catchme622@gmail.com <br>
-      Address: Being Surjeet Store - 444, SG Highway, Ahmedabad
+      Address: Memco Mobile Shop - 444, SG Highway, Ahmedabad
     </div>
   `
 })

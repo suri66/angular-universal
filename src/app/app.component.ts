@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
   selector: 'app-root',
   template: `
   <div class="app-container">
-    <h1>Being Surjeet Store</h1>
+    <h1>Memco Mobile Shop</h1>
     <nav class="nav-links">
       <a routerLink="/">Home</a>
       <a routerLink="/about">About</a>

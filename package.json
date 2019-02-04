@@ -23,9 +23,11 @@
     "build:client-and-server-bundles": "ng build --prod && ng run ng-universal-demo:server:production",
     "build:prerender": "npm run build:client-and-server-bundles && npm run compile:server && npm run generate:prerender",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
+    "buildWebpack:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
     "compile:server": "tsc -p server.tsconfig.json",
     "generate:prerender": "cd dist && node prerender",
     "serve:prerender": "cd dist/browser && http-server",
+    "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:ssr": "node dist/server"
   },
   "pre-commit": [],
@@ -61,6 +63,7 @@
     "pre-commit": "^1.2.2",
     "ts-loader": "^4.2.0",
     "tslint": "^5.7.0",
-    "typescript": "3.1.6"
+    "typescript": "3.1.6",
+    "webpack-cli": "^3.1.0"
   }
 }
